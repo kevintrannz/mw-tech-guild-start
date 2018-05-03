@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>MW Tech Guild start</title>
+
+		<meta name="description" content="MW Tech Guild start">
+		<meta name="author" content="Kevin Tran">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="custom.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+                <section class="cover" data-background="media/robot_thinker.jpg">
+					<h2 style="color:greenyellow; text-shadow: 0 1px 0 black">MW Tech Guild kick off</h2>
+				</section>
+
+				<section>
+					<div>
+						<h2>Agenda</h2>
+					</div>
+					<div  style="text-align:left">
+						<ul>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="1">Kicking off MW Tech Guild (Kevin)</li>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="2">Introduction to Coding Standards and Conventions - JavaScript (Richard) (30 mins)</li>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="3">Introduction to Docker (Kevin) (30 mins) </li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<div>
+						<h2>Tech guild format</h2>
+					</div>
+					<div  style="text-align:left">
+						<ul>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="1">Lightning talk (15 mins)</li>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="2">Presentation (30+ mins)</li>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="3">Update (What is our there or what you read)</li>
+							<li class="fragment highlight-current-blue visible" data-fragment-index="3">...</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<div>
+						<h2>Too busy for improvement ?</h2>
+					</div>
+					<div>
+						<img src="media/too_busy_for_improvements_highlight.jpeg" />
+					</div>
+				</section>
+
+				<section>
+					<div>
+						<h2>What's next ?</h2>
+					</div>
+				</section>
+
+                <section>
+					<h2>Thank you.</h2>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+                slideNumber: 'h.v',
+				progress: false,
+				history: false,
+				center: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
