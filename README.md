@@ -15,3 +15,8 @@
 ./run_docker_image.sh
 
 ```
+
+## Export this slide to PDF format:
+```
+http://localhost:8000/?print-pdf
+```
